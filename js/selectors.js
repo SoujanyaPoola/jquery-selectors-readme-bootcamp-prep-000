@@ -19,22 +19,24 @@ function firstListItem(){
   return $('#pic-list li:first')
 }*/
 
-function paragraphSelector(){
+
+function paragraphSelector() {
   return $('p');
 }
 
-function lastImageSelector(){
+function lastImageSelector() {
   return $('img:last');
 }
 
-function ninjaBabySelector(){
+
+function ninjaBabySelector() {
   return $('#baby-ninja');
 }
 
-function divSelector(){
-  return $('div.pics');
+function divSelector() {
+  return $('.pics');
 }
 
-function firstListItem(){
-  return $('ul#pic-list li:first-child');
+function firstListItem() {
+  return $('ul li:first-child');
 }
